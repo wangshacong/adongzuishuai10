@@ -63,12 +63,10 @@
             </ul>
 
         </div>
-        <div class="pagess">
-            <ul>
-                {{$article->appends(request()->all())->links()}}
 
-            </ul>
-        </div>
+
+        
+       
 
         <div class="listr">
             <div class="adimg"><a href="/" title="" target="_blank"></a></div>
@@ -103,6 +101,12 @@
                 <script src="/js/ad_js.php" language="javascript"></script><a href="http://sc.adminbuy.cn/" target="_blank"><img
                         src="/js/img17.jpg" alt=""></a>
             </div>
+        </div>
+        <div class="pagess">
+            <ul>
+                {{$article->appends(request()->all())->links()}}
+
+            </ul>
         </div>
         <div class="mainother">
 

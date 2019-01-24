@@ -1522,12 +1522,12 @@ a:hover {
 	margin: 0 auto;
 	overflow: hidden;
 	padding-bottom: 20px;
-	margin-top: 80px;
+	margin-top: 100px;
 }
 
 .main .listl {
 	float: left;
-	width: 1150px;
+	width: 750px;
 	position: relative;
 	padding-top: 60px;
 	padding-right: 30px;
@@ -2342,4 +2342,27 @@ a:hover {
 
 .fixed {
 	top: 0;
+}
+.pagination{
+	display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+    margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.pagination>li {
+    display: inline;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 10px 20px 10px 20px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
 }
