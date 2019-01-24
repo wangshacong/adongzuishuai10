@@ -1527,7 +1527,7 @@ a:hover {
 
 .main .listl {
 	float: left;
-	width: 770px;
+	width: 1150px;
 	position: relative;
 	padding-top: 60px;
 	padding-right: 30px;
@@ -1538,6 +1538,8 @@ a:hover {
 
 .main .listl .inner {
 	padding: 0 10px 0 15px;
+	width: 770px;
+    float: left;
 }
 
 .listl .listview {

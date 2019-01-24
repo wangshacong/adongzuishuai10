@@ -100,10 +100,8 @@
                         </div>
                         <h3><a href="/article/{{$v->id}}">{{$v->title}}</a></h3>
                         <p>{{mb_substr(preg_replace('/<.*?>/','',$v->content),0,110)}}</p>
-                        <?php 
-                            $fenlei = \DB::Table('fenlei10s')->where('id',$v->fenlei_id)->first();
-                        ?>
-                        <span><a href="/fenlei/{{$fenlei->id}}" target="_blank">{{$fenlei->fenlei_name}}</a></span><span>/</span><span>{{$v->create_time}}</span>
+                        
+                        <span></span><span></span><span>{{$v->create_time}}</span>
                     </div>
                     @endforeach
 
